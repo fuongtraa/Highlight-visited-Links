@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>History Highlighter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h2 class="title">🔗 Visited Highlighter</h2>
+
+  <div class="container">
+    <label class="switch">
+      <input type="checkbox" id="toggleHighlight">
+      <span class="slider"></span>
+      Enable Highlight
+    </label>
+
+    <div class="color-picker">
+      <label for="highlightColor">Highlight Color:</label>
+      <input type="color" id="highlightColor">
+    </div>
+
+    <label class="switch">
+      <input type="checkbox" id="toggleOverdrive">
+      <span class="slider"></span>
+      Overdrive Mode
+    </label>
+
+    <div class="blacklist">
+      <label for="blacklist">Blacklist (domains):</label>
+      <input type="text" id="blacklist" placeholder="example.com, test.com">
+    </div>
+
+    <button id="saveSettings">💾 Save Settings</button>
+    <button id="reloadData">🔄 Reload Data</button>
+  </div>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
