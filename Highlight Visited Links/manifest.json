@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "visited Highlighter",
   "version": "1.3",
-  "update_url": "https://github.com/fuongtraa/highlight-bookmarked-links-extension/raw/refs/heads/main/Highlight%20Bookmarked%20links%20Lite%20(for%20lesser%20bookmarked%20links)/Highlight%20Bookmarked%20links%20Lite%20(for%20lesser%20bookmarked%20links).crx",
+  "update_url": "https://github.com/fuongtraa/Highlight-visited-Links/raw/refs/heads/main/Highlight%20Visited%20Links/Highlight%20Visited%20Links.crx",
   "description": "Highlight visited links.",
   "permissions": ["history", "storage", "tabs", "activeTab", "scripting"],
   "background": {
